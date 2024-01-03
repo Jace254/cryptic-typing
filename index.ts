@@ -1,4 +1,4 @@
-const crypticTyping = (text: string, callback: (newText: string) => void, timeout: number) => {
+const crypticTyping = (text: string, callback: (newText: string) => void, timeout?: number) => {
     let finalText: string = ''
     const cryptic: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
     const random = () => cryptic[Math.floor(Math.random() * cryptic.length)]
@@ -13,7 +13,7 @@ const crypticTyping = (text: string, callback: (newText: string) => void, timeou
                 .slice(0,randomCryptic.length > remaining ? remaining % randomCryptic.length : randomCryptic.length
             )
             callback(newText)
-        }, timeout * i, i)
+        }, timeout ?? 50 * i, i)
     }
 }
 
