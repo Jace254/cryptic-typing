@@ -1,0 +1,27 @@
+{
+  "name": "zabbix-api-wrapper",
+  "version": "1.0.10",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon --exec ts-node example/index.ts",
+    "release": "npx bumpp && npm publish"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Jace254",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "bumpp": "^9.2.1"
+  }
+}
