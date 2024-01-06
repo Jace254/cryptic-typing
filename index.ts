@@ -17,7 +17,7 @@ const crypticTyping = (text: string, callback: (newText: string) => void, timeou
     }
 }
 
-export { crypticTyping }
+export default { crypticTyping }
 
 
 
