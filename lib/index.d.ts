@@ -1,1 +1,2 @@
-export declare const crypticTyping: (text: string, callback: (newText: string) => void, timeout?: number) => void;
+declare const crypticTyping: (text: string, callback: (newText: string) => void, timeout?: number) => void;
+export default crypticTyping;
