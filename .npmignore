@@ -1,0 +1,6 @@
+.github
+.gitingore
+bump.config.ts
+index.ts
+pnpm-lock.yaml
+tsconfig.json
