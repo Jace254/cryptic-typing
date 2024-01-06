@@ -1,6 +1,6 @@
 {
   "name": "cryptic-typing",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -28,5 +28,6 @@
   },
   "dependencies": {
     "bumpp": "^9.2.1"
-  }
+  },
+  "module": "lib/index.js"
 }
