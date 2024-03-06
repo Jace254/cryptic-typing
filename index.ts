@@ -13,7 +13,7 @@ const crypticTyping = (text: string, callback: (newText: string) => void, timeou
                 .slice(0,randomCryptic.length > remaining ? remaining % randomCryptic.length : randomCryptic.length
             )
             callback(newText)
-        }, (timeout ?? 50) * i, i)
+        }, timeout ? timeout * i : 50 * i, i)
     }
 }
 
