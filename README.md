@@ -9,7 +9,7 @@
   ```
 - To use the library: 
   ```js
-  import { crypticTyping } from 'cryptic-typing'
+  import crypticTyping from 'cryptic-typing'
   
   
   crypticTyping('The quick brown fox jumps over the lazy dog', (newText) => {
