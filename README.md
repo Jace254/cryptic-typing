@@ -1,6 +1,6 @@
 # Cryptic Typing
 
-example, [100.joash.me/cryptic](https://100.joash.me/cryptic)
+example, [100.joash.me/cryptic](https://100.joash.me/003)
 
 ## Usage
 
